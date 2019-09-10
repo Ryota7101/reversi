@@ -1,10 +1,10 @@
-cnt = 60
+cnt = 60 #手順の数
 
 #shape(8,8)の配列に対して周辺を9で囲む
 
 h = 8
 w = 8
-hoge = 9 #囲む数字
+hoge = 9 #盤面の周りを9で囲む.エラー防止用
 
 arr = Array.new(h).map{Array.new(w,0)} #2次元配列の作成
 
